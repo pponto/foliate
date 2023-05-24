@@ -5,13 +5,14 @@
 # Fábio Nogueira <fnogueira@gnome.org>, 2019.
 # Marcelo dos Santos Mafra <msmafra@gmail.com>, 2020.
 # Fúlvio Alves <fga.fulvio@gmail.com>, 2020, 2021.
+# Pedro Moreira <pedromoreira@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-17 23:32+0800\n"
 "PO-Revision-Date: 2021-05-06 13:04-0300\n"
-"Last-Translator: Fúlvio Alves <fga.fulvio@gmail.com>\n"
+"Last-Translator: Pedro Moreira <pedromoreira@gmail.com>\n"
 "Language-Team: Fábio Nogueira <fnogueira@gnome.org>; Marcelo dos Santos "
 "Mafra <msmafra@gmail.com>\n"
 "Language: pt_BR\n"
@@ -28,19 +29,19 @@ msgstr "Marcadores de páginas"
 
 #: src/annotations.js:121 src/annotations.js:153 src/book-viewer.js:735
 msgid "Undo"
-msgstr ""
+msgstr "Desfazer"
 
 #: src/annotations.js:368
 msgid "Underline"
-msgstr ""
+msgstr "Sublinhado"
 
 #: src/annotations.js:369
 msgid "Squiggly"
-msgstr ""
+msgstr "Ondulado"
 
 #: src/annotations.js:370
 msgid "Strikethrough"
-msgstr ""
+msgstr "Rasurado"
 
 #: src/annotations.js:371
 msgid "Yellow"
@@ -49,7 +50,7 @@ msgstr "Amarelo"
 #: src/annotations.js:372
 #, fuzzy
 msgid "Orange"
-msgstr "Arranjador"
+msgstr "Laranja"
 
 #: src/annotations.js:373
 msgid "Red"
@@ -70,7 +71,7 @@ msgstr "Lima"
 #: src/annotations.js:377
 #, fuzzy
 msgid "Custom Color…"
-msgstr "Escolher cor personalizada"
+msgstr "Escolher cor personalizada…"
 
 #: src/annotations.js:431
 #, fuzzy
@@ -98,10 +99,11 @@ msgstr ""
 #. they will be shown in the "About" dialog
 #: src/app.js:297
 msgid "translator-credits"
-msgstr ""
+msgstr "mérito da tradução"
 "Fábio Nogueira\n"
 "Marcelo dos Santos Mafra\n"
 "Fúlvio Alves"
+"Pedro Moreira"
 
 #: src/app.js:306
 #, fuzzy
@@ -147,22 +149,22 @@ msgstr "Adicionar livros"
 #: src/book-viewer.js:651
 #, fuzzy
 msgid "File not found"
-msgstr "Arquivo não encontrado."
+msgstr "Arquivo não encontrado"
 
 #: src/book-viewer.js:652
 #, fuzzy
 msgid "File type not supported"
-msgstr "Tipo de arquivo não suportado."
+msgstr "Tipo de arquivo não suportado"
 
 #: src/book-viewer.js:653
 #, fuzzy
 msgid "An error occurred"
-msgstr "Ocorreu um erro."
+msgstr "Ocorreu um erro"
 
 #: src/book-viewer.js:734
 #, fuzzy
 msgid "Annotation deleted"
-msgstr "Anotação"
+msgstr "Anotação apagada"
 
 #: src/book-viewer.js:785
 #, javascript-format
@@ -175,7 +177,7 @@ msgstr "Imagem"
 
 #: src/book-viewer.js:792 src/navbar.js:216
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Copiado para a área de transferência"
 
 #: src/book-viewer.js:796
 msgid "Save File"
@@ -183,7 +185,7 @@ msgstr "Salvar Arquivo"
 
 #: src/book-viewer.js:871
 msgid "Default Fonts"
-msgstr ""
+msgstr "Fonte Padrão"
 
 #: src/format.js:83
 #, javascript-format
@@ -255,23 +257,23 @@ msgstr "Capítulo atual"
 
 #: src/ui/book-viewer.ui:56
 msgid "Match Whole Words Only"
-msgstr ""
+msgstr "Apenas palavras inteiras"
 
 #: src/ui/book-viewer.ui:60
 msgid "Match Case"
-msgstr ""
+msgstr "Maiúsculas/Minúsculas"
 
 #: src/ui/book-viewer.ui:64
 msgid "Match Diacritics"
-msgstr ""
+msgstr "Diacríticos"
 
 #: src/ui/book-viewer.ui:87
 msgid "Set Default Fonts…"
-msgstr ""
+msgstr "Definir fonte padrão…"
 
 #: src/ui/book-viewer.ui:91
 msgid "Full Justification"
-msgstr "Justificação Completa"
+msgstr "Justificação completa"
 
 #: src/ui/book-viewer.ui:95
 msgid "Auto-hyphenation"
@@ -279,7 +281,7 @@ msgstr "Auto-hifenização"
 
 #: src/ui/book-viewer.ui:99
 msgid "Invert Colors in Dark Mode"
-msgstr ""
+msgstr "Inverter Cores em Modo Escuro"
 
 #: src/ui/book-viewer.ui:103
 #, fuzzy
@@ -288,11 +290,11 @@ msgstr "Rolado"
 
 #: src/ui/book-viewer.ui:109
 msgid "Inspector"
-msgstr ""
+msgstr "Inspetor"
 
 #: src/ui/book-viewer.ui:162
 msgid "Book Cannot Be Opened"
-msgstr ""
+msgstr "O Livro Não Pode Ser Aberto"
 
 #: src/ui/book-viewer.ui:172
 msgid "Details"
@@ -314,7 +316,7 @@ msgstr "Encontrar"
 #: src/ui/book-viewer.ui:262
 #, fuzzy
 msgid "Find in book…"
-msgstr "Pesquisar no livro"
+msgstr "Pesquisar no livro…"
 
 #: src/ui/book-viewer.ui:303
 msgid "Contents"
@@ -332,7 +334,7 @@ msgstr "Anotações"
 #: src/ui/book-viewer.ui:427
 #, fuzzy
 msgid "Filter annotations…"
-msgstr "Pesquisar anotações"
+msgstr "Pesquisar anotações…"
 
 #: src/ui/book-viewer.ui:441
 msgid "Bookmarks"
@@ -380,25 +382,25 @@ msgstr "Margens"
 
 #: src/ui/book-viewer.ui:650
 msgid "Max Col Size"
-msgstr ""
+msgstr "Tamanho Máximo da Coluna"
 
 #: src/ui/book-viewer.ui:678
 msgid "Max Cols"
-msgstr ""
+msgstr "Máximo de Colunas"
 
 #: src/ui/book-viewer.ui:715
 msgid "Follow system style"
-msgstr ""
+msgstr "Utilizar padrão do sistema"
 
 #: src/ui/book-viewer.ui:725
 #, fuzzy
 msgid "Light style"
-msgstr "Claro"
+msgstr "Modo claro"
 
 #: src/ui/book-viewer.ui:735
 #, fuzzy
 msgid "Dark style"
-msgstr "Modo Escuro"
+msgstr "Modo escuro"
 
 #: src/ui/book-viewer.ui:750 src/ui/library.ui:12
 msgid "Fullscreen"
@@ -420,37 +422,37 @@ msgstr "Abrir…"
 
 #: src/ui/font-settings-widget.ui:10
 msgid "Default Font"
-msgstr ""
+msgstr "Fonte padrão"
 
 #: src/ui/font-settings-widget.ui:14
 #, fuzzy
 msgid "Serif"
-msgstr "Séries"
+msgstr "Serifa"
 
 #: src/ui/font-settings-widget.ui:15
 msgid "Sans-serif"
-msgstr ""
+msgstr "Sem serifa"
 
 #: src/ui/font-settings-widget.ui:23
 msgid "Serif Font"
-msgstr ""
+msgstr "Fonte serifada"
 
 #: src/ui/font-settings-widget.ui:34
 msgid "Sans-serif Font"
-msgstr ""
+msgstr "Fonte sem serifa"
 
 #: src/ui/font-settings-widget.ui:45
 msgid "Monospace Font"
-msgstr ""
+msgstr "Fonte monoespaçada"
 
 #: src/ui/font-settings-widget.ui:60
 #, fuzzy
 msgid "Default Font Size"
-msgstr "Diminuir o tamanho da fonte"
+msgstr "Tamanho da fonte"
 
 #: src/ui/font-settings-widget.ui:78
 msgid "Minimum Font Size"
-msgstr ""
+msgstr "Tamanho mínimo da fonte"
 
 #: src/ui/navbar.ui:10
 #, fuzzy
@@ -459,11 +461,11 @@ msgstr "Dublador"
 
 #: src/ui/navbar.ui:16
 msgid "Start Speaking"
-msgstr ""
+msgstr "Começar a Falar"
 
 #: src/ui/navbar.ui:21
 msgid "Stop Speaking"
-msgstr ""
+msgstr "Parar de Falar"
 
 #: src/ui/navbar.ui:33
 msgid "Go to previous page"
@@ -483,20 +485,20 @@ msgstr "Texto-para-Voz"
 
 #: src/ui/navbar.ui:100
 msgid "Speed"
-msgstr ""
+msgstr "Velocidade"
 
 #: src/ui/navbar.ui:122
 msgid "Pitch"
-msgstr ""
+msgstr "Tom"
 
 #: src/ui/navbar.ui:160
 msgid "Go to next page"
-msgstr "Ir para a próxima página"
+msgstr "Ir a próxima página"
 
 #: src/ui/navbar.ui:198
 #, fuzzy
 msgid "Time Left in Section"
-msgstr "%d minuto restante na seção"
+msgstr "Tempo restante na seção"
 
 #: src/ui/navbar.ui:228
 #, fuzzy
@@ -514,7 +516,7 @@ msgstr "Copiar"
 
 #: src/ui/navbar.ui:345
 msgid "Paste and go"
-msgstr ""
+msgstr "Colar e ir"
 
 #: src/ui/navbar.ui:358
 msgid "Section"
@@ -532,7 +534,7 @@ msgstr "Voltar para a localização anterior"
 
 #: src/ui/navbar.ui:441
 msgid "Jump to…"
-msgstr ""
+msgstr "Ir para…"
 
 #: src/ui/navbar.ui:450
 #, fuzzy
